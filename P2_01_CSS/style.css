@@ -1,0 +1,108 @@
+
+  /**************     Body of the page  ****************/
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+  }
+  
+  /**************     Header Section for the menu   ****************/
+
+  #Container {
+
+    margin: auto;
+    width: 100%;
+
+  }
+  
+  header {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+
+  }
+  .menu {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5%;
+
+  }
+  .websiteLogo {
+
+    cursor: pointer;
+    margin-left: 5%;
+
+  }
+  
+  header ul {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    font-weight: bold;
+    color: #0065fc;
+
+  }
+  
+  header a:hover {
+
+    border-top: 2px solid #0065fc;
+    padding-top: 40px;
+    color: #0065fc;
+
+  }
+  
+  header ul li {
+
+    margin-left: 45px;
+
+  }
+  
+  a {
+
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  .signup {
+
+    padding-left: 45px;
+
+  }
+  
+  .signup a {
+
+    font-weight: bold;
+    color: #0065fc;
+    margin-right: 0%;
+
+  }
+  
+  .signup a:hover {
+
+    border-top: 2px solid #0065fc;
+    padding-top: 40px;
+
+  }
+
+    /**************     Section for the search and the filters    ****************/
