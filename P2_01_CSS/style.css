@@ -1,10 +1,10 @@
 
   /**************     Body of the page  ****************/
 
-body {
+    body {
     font-family: "Raleway", sans-serif;
     margin: 0;
-  }
+    }
   
   /**************     Header Section for the menu   ****************/
 
@@ -106,3 +106,233 @@ body {
   }
 
     /**************     Section for the search and the filters    ****************/
+
+  .heading {
+
+    margin-left: 5%;
+  }
+
+  .researchDescription {
+
+    margin-top: -13px;
+    margin-bottom: 30px;
+  }
+
+  .researchCity {
+
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 41px;
+    margin-left: 5px;
+    padding-right: 10px;
+    border: 1px solid #f2f2f2;
+
+  }
+      
+  .searchBar {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 16px;   
+
+  }
+      
+  .searchBar::-webkit-input-placeholder {
+       
+    margin: 10px;
+     
+  }
+      
+  .searchBar::-moz-placeholder {
+    margin: 10px;
+  }
+  
+  .searchBar:-ms-input-placeholder {
+    margin: 10px;
+  }
+  
+  .searchBar::-ms-input-placeholder {
+    margin: 10px;
+  }
+  
+  .searchBar::placeholder {
+    margin: 10px;
+  }
+  
+  .researchButton{
+
+    background-color: #0065fc;
+    height: 41px;
+    border-radius: 0 12px 12px 0;
+    color: white;
+    border-width: 0ch;
+    width: 100px;
+
+  }
+  
+  #map {
+
+    background-color: #f2f2f2;
+    height: 41px;
+    width: 45px;
+    border-radius: 16px 0 0 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 5%;
+
+  }
+     
+     
+      /******************  Filter Options  **********************/
+      
+.filterOptions {
+       
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 5%;
+      }
+      
+.filterOptions button {
+
+        margin-left: 20px;
+        background-color: white;
+        height: 43px;
+        width: auto;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 15px;
+        border: 2px solid #f2f2f2;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 40px;
+       
+
+      }
+      
+.filterOptions button::before {
+
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        background-color: #deebff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-left: -20px;
+        margin-right: 10px;
+        height: 43px;
+        width: 43px;
+        
+
+      }
+      
+.filterOptions button:hover {
+
+        background-color: #0065fc;
+        color: #ffffff;
+      }
+      
+button.economic::before {
+
+        content: "\f53a";
+        color: #0065fc;
+      }
+      
+button.Familiar::before {
+
+        content: "\f1ae";
+        color: #0065fc;
+      }
+      
+button.Romantic::before {
+
+        content: "\f004";
+        color: #0065fc;
+      }
+      
+button.authorisedAnimal::before {
+
+        content: "\f6d3";
+        color: #0065fc;
+      }
+      
+.filtresText {
+
+        height: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+      }
+      
+      /*****************************   Search Result Announce  *************************************/
+      
+      .searchInfo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      
+      .searchInfo i {
+        border-radius: 30px;
+        background-color: white;
+        color: #0065fc;
+        border: 1px solid #f2f2f2;
+        border-width: 1px;
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        margin-right: -5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 28px;
+      }
+      
+      .searchResult {
+        margin-left: 15px;
+        margin-top: 45px;
+      }
+      
