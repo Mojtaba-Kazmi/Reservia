@@ -298,6 +298,7 @@ button.authorisedAnimal::before {
       }
       
       /*****************************   Search Result Announce  *************************************/
+
       
       .searchInfo {
         display: -webkit-box;
@@ -335,4 +336,116 @@ button.authorisedAnimal::before {
         margin-left: 15px;
         margin-top: 45px;
       }
+    
+/************** Section for the Hébergement à Marseille and les plus populaires--> *****************/
+
+      main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-left: 5%;
+      }
+
+      .availableAccommodation {
+        background-color: #f2f2f2;
+        width: 70%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+      }
       
+      .availableAccommodation h2 {
+        margin-left: 25px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      .hotelInfo {
+        width: 29%;
+        height: 255px;
+        background-color: white;
+        border-radius: 25px;
+        margin-left: 30px;
+        margin-right: 5px;
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+        box-shadow: 1px 1px 25px rgb(214, 213, 213);
+        align-items:center;
+      }
+      
+      .availableAccommodation img {
+        padding-left: 5px;
+        margin-bottom: 10px;
+        margin-top: -5px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 25px 25px 0 0;
+        width: 97%;
+        height: 135px;
+        object-fit: cover;
+      }
+
+      .hotelInfo:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+      .hotelName {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        margin-top: 0px;
+      }
+
+      .availableAccommodation .pricePerNight {
+        margin-left: 20px;
+     
+      }
+
+      .star-white{
+        color:rgb(206, 201, 201)
+      }
+
+      .rating {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 50px;
+        color: #0065fc;
+        margin-left: 20px;
+      }
+
+      .viewMore {
+        width: 100%;
+        margin-left: 40px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      }
