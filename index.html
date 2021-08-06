@@ -11,11 +11,12 @@
         <script src="https://kit.fontawesome.com/031c499325.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-
     </head>
+
     <body>
 
         <!--Body of the page-->
+
         <div id="Container">
             <!--Header Section for the menu-->
             <header>
@@ -35,7 +36,33 @@
 
             <!--Section for the search and the filters-->
             <section>
+                <!--Main Heading-->
+                <div class="heading">
+                    <h1 class="principalHeading">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="researchDescription">En plein centre ville ou en plein nature</p>
+                </div>
+                <!--Search Bar-->
+                <form>
+                    <div class="searchBar">
+                        <i id="map" class="fas fa-map-marker-alt"></i>
+                        <input class="researchCity" type="search" id="ResearchCity" name="s" placeholder="Marseille, France"/>
+                        <button class="researchButton">Rechercher</button>
+                    </div>
+                </form>
 
+                <!--Filters Option-->
+                <div class="filterOptions">
+                    <p class="filtresText">Filtres</p>
+                    <button class="economic">Économique</button>
+                    <button class="Familiar">Familial</button>
+                    <button class="Romantic">Romantique</button>
+                    <button class="authorisedAnimal">Animaux autorisés</button>  
+                </div>
+                <!--search result announce-->
+                <div class="searchInfo">
+                    <i class="fas fa-info"></i>
+                    <p class="searchResult">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </section>
 
             <!--Section for the Hébergement à Marseille and les plus populaires-->
@@ -48,9 +75,11 @@
 
             </section>
         </div>
+
         <!--Footer of the Reservia -->
         <footer>
 
         </footer>
+
     </body>
 </html>
