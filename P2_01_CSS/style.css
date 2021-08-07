@@ -39,13 +39,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 5%;
+    
 
   }
   .websiteLogo {
 
     cursor: pointer;
-    margin-left: 5%;
+    
 
   }
   
@@ -109,7 +109,7 @@
 
   .heading {
 
-    margin-left: 5%;
+  
   }
 
   .researchDescription {
@@ -186,7 +186,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-left: 5%;
+   
 
   }
      
@@ -204,7 +204,7 @@
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-top: 20px;
-        margin-left: 5%;
+        
       }
       
 .filterOptions button {
@@ -328,7 +328,6 @@ button.authorisedAnimal::before {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        margin-left: 5%;
         margin-top: 28px;
       }
       
@@ -347,7 +346,7 @@ button.authorisedAnimal::before {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-left: 5%;
+        
       }
 
       .availableAccommodation {
@@ -392,7 +391,7 @@ button.authorisedAnimal::before {
         box-shadow: 1px 1px 25px rgb(214, 213, 213);
         align-items:center;
       }
-      
+
       .availableAccommodation img {
         padding-left: 5px;
         margin-bottom: 10px;
@@ -449,3 +448,115 @@ button.authorisedAnimal::before {
         font-weight: bold;
         color: black;
       }
+
+
+      /************** Section les plus populaires--> *****************/
+
+
+      .mostPopular {
+
+        height: 740px;
+        width: 30%;
+        background-color: #f2f2f2;
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 25px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+       
+
+      }
+      .mostPopular img {
+        width: 180px;
+        height: 190px;
+        float: left;
+        padding: 5px;
+        border-radius: 20px 0 0 20px;
+        object-fit: cover;
+      
+      }
+
+      .mostPopularHeading {
+        padding-top: 20px;
+        padding-left: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .mostPopularHeading .fas {
+        margin-right: 20px;
+        font-size: 22px;
+      }
+
+      .popularHotelInfo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: white;
+        height: 200px;
+        width: 92%;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+        box-shadow: 1px 1px 25px rgb(214, 213, 213);
+      }
+      .popularHotelInfo:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+      .popularHotelName {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+      }
+      .popularInfo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: -120px;
+      }
+      .popularInfo .popularPricePerNight {
+        margin-left: 10px;
+        margin-top: -10px;
+        
+      }
+      
+      .popularInfo .Popularrating {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 50px;
+        color: #0065fc;
+        padding-left: 10px;
+        margin-bottom: -100px;
+        margin-top: 70px;
+
+      }
+      
