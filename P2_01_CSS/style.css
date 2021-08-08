@@ -739,3 +739,44 @@ button.authorisedAnimal::before {
             margin-bottom: 10px;
           }
           
+        /****Footer****/
+        
+          footer {
+            background-color: #f2f2f2;
+            height: auto;
+            padding-bottom: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            width: 1600px;
+            margin: auto;
+          }
+          
+          footer .h3 {
+            font-size: initial;
+          }
+          
+          footer ul {
+            list-style-type: none;
+            margin-left: -40px;
+          }
+          footer ul li {
+            margin-bottom: 10px;
+          }
+          
+          footer a {
+            text-decoration: none;
+            color: black;
+          }
+          
+          footer div {
+            margin-left: -340px;
+          }
+          
