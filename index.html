@@ -17,7 +17,7 @@
 
         <!--Body of the page-->
 
-        <div id="Container">
+        <div class="container">
             <!--Header Section for the menu-->
             <header>
                 <div class="websiteLogo">
@@ -25,8 +25,8 @@
                 </div>
                 <nav class="menu">
                     <ul>
-                        <li><a href="#Hebergements">Hébergements</a></li>
-                        <li><a href="Activities">Activités</a></li>
+                        <li><a class="hebergement" href="#Hebergements">Hébergements</a></li>
+                        <li><a class="activite" href="Activities">Activités</a></li>
                     </ul>
                     <div class="signup">
                         <a href="#signup">S'inscrire</a>
@@ -47,6 +47,7 @@
                         <i id="map" class="fas fa-map-marker-alt"></i>
                         <input class="researchCity" type="search" id="ResearchCity" name="s" placeholder="Marseille, France"/>
                         <button class="researchButton">Rechercher</button>
+                        <button class="button"><i id="icone2" class="fas fa-search iconederecherche"></i></button>
                     </div>
                 </form>
 
@@ -222,7 +223,7 @@
           
             <!--Section for Activités à Marseille-->
 
-            <section>
+            <section id="Activites">
                 <h2 class="lastHeading">Activités à Marseille</h2>
                 <div class="activitySection">
                     <div class="singleImg">
