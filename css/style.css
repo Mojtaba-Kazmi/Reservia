@@ -8,10 +8,10 @@
   
   /**************     Header Section for the menu   ****************/
 
-  #Container {
+  .container {
 
     margin: auto;
-    width: 100%;
+    width: 1600px;
 
   }
   
@@ -30,8 +30,8 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 30px;
+    width: 1600px;
 
   }
   .menu {
@@ -107,11 +107,7 @@
 
     /**************     Section for the search and the filters    ****************/
 
-  .heading {
-
   
-  }
-
   .researchDescription {
 
     margin-top: -13px;
@@ -136,6 +132,11 @@
     display: flex;
     border-radius: 16px;   
 
+  }
+
+  .button,#icon2 {
+
+    display: none;
   }
       
   .searchBar::-webkit-input-placeholder {
