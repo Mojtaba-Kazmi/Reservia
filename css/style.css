@@ -819,6 +819,7 @@ button.authorisedAnimal::before {
     
     }
 
+
   /************* Responsive Mobile Design Section *************/
 
   @media only screen and (max-width: 480px) {
@@ -1428,3 +1429,394 @@ footer .h3 {
 }
 
 /*************************** End of Mobile Responsive  *************/
+
+
+/*************************** Begin of Tablet Responsive CSS Code  *************/
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+  .container {
+
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    width: auto;
+
+  }
+
+  header{
+
+    width: auto;
+
+  }
+
+  /****** Filter Options Mobile Section **********/
+
+.filtresText {
+
+  width: 100%;
+  margin-left: 0px;
+  
+  }
+  
+  .filterOptions button {
+  
+  margin-left: 10px;
+  margin-top: 10px;
+  
+  }
+  
+  .searchInfo {
+  
+    margin-left:  0px;
+  
+  }
+  
+  .searchInfo .searchResult {
+  
+    padding: 10px;
+  }
+  
+
+
+  main {
+
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+  }
+
+  .availableAccommodation {
+
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+  }
+
+  .hotelInfo {
+
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 320px;
+    height: 255px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+
+  }
+
+  .availableAccommodation h2 {
+
+    padding-left: 0px;
+    margin-right: 80px;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+
+  .viewMore {
+
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 130px;
+    margin-right: 130px;
+
+  }
+
+  .viewMore a {
+
+    margin-left: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+  }
+
+
+
+  /************************  Section les plus populaires Tablet Version **********************************/
+
+
+  .mostPopular {
+
+    background-color: #f2f2f2;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+  }
+
+  .hotelinfos {
+
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    width: 70%;
+
+  }
+
+  .mostPopular img {
+
+    width: 180px;
+    height: 190px;
+    float: left;
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+
+  }
+
+  .popularHotelName {
+
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+  }
+
+  .popularInfo {
+
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+  }
+
+  .mostPopularHeading {
+
+    padding-top: 20px;
+    padding-left: 0px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+  }
+
+  .mostPopularHeading .fas {
+
+    margin-right: 0px;
+    font-size: 22px;
+    margin-left: 190px;
+
+  }
+  /*************************   Section for Activités à Marseille Tablet Version  *********************/
+
+
+  .activitySection{
+
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .columnImg{
+
+    flex-direction: row;
+
+  }
+
+
+  .lastHeading{
+
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: -5px;
+
+  }
+
+  .activitySection a {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .imglink{
+
+    margin-left:-20px;
+
+  }
+
+  /*************************   Section for Activités à Marseille Tablet Version  *******************/
+
+  .singleImg {
+
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 210px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+
+  }
+
+  .singleImg img {
+
+    padding-left: 16px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 25px 25px 0 0;
+    width: 280px;
+    height: 135px;
+
+  }
+
+
+  .columnImages{
+
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 210px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+
+  }
+
+  .columnImages img {
+
+    padding-left: 16px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+    width: 280px;
+    height: 135px;
+
+  }
+
+  .singleImg2 {
+
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 210px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+
+  }
+
+  .singleImg2 img {
+
+    padding-left: 16px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+    width: 280px;
+    height: 135px;
+
+  }
+
+
+
+  /******************   Footer Section Tablet Responsive Design   **************************/
+
+
+
+  footer {
+
+    background-color: #f2f2f2;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+  }
+  footer div {
+
+    margin-left: 0px;
+
+  }
+}
+
+
+/*************************** End of Tablet Responsive CSS Code  *************/
