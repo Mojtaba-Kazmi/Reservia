@@ -2,7 +2,7 @@
 
 Projet OPENCLASSROOMS N°2 - Reservia | Parcours Développeur Web
 
-Lien : 
+Lien :  https://mojtaba-kazmi.github.io/KAZMISaidMojtaba_2_25072021/
 
 Reservia est le second projet réalisé dans le cadre de ma formation Développeur Web dispensée par Openclassrooms.
 
